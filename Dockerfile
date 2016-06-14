@@ -14,5 +14,7 @@ RUN cd /build && npm install --production
 # Set the working directory and home directory
 WORKDIR /build
 
+EXPOSE 3000
+
 # Command to run when starting the app
 CMD npm start
